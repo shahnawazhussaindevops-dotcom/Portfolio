@@ -35,3 +35,18 @@ export default function Home() {
         </main>
     );
 }
+// app/page.tsx   (only create ONE of the two blocks below)
+
+// ------------- SIMPLE REACT COMPONENT -------------
+import React from 'react';
+
+const Home = () => {
+  return (
+    <main>
+      <h1>Hello from Vercel! 🎉</h1>
+      {/* put your other UI here */}
+    </main>
+  );
+};
+
+export default Home;   // <-- THIS EXPORT IS REQUIRED
